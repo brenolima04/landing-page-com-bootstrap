@@ -1,0 +1,393 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #FFF;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+   background-color: var(--bg-color);
+}
+
+/*Estilização para o meu header */
+
+
+
+#logo {
+    border: none;
+}
+
+#logo:hover {
+    background-color: transparent;
+}
+
+.navbar a {
+    border: 1px solid #AAA;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.active {
+    background-color: #AAA;
+}
+
+.navbar a:hover {
+    background-color: #AAA;
+}
+
+
+/*Estilos na 1 section */
+
+#banner {
+
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+
+
+
+.text_banner h1 {
+    font-weight: bold;
+    text-shadow: 3px 0 0 #000;
+    font-size: 60px;
+    
+}
+
+.text_banner h6 {
+    text-shadow: 2px 0 0 #000;
+    font-size: 20px;
+}
+
+.text_banner {
+    color: #FFF;
+}
+
+
+/*Parte da minha segunda section */
+
+.section_menu {
+    background-color: #FFF;
+}
+
+.section_menu_margem {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem1,
+.imagem2,
+.imagem3  {
+    background-color: #DDD;
+    border-radius: 5px;
+   
+}
+
+#img_section {
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+    object-fit: cover;
+}
+
+
+
+
+
+.section_menu_title {
+    color: green;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.section_menu_title_2 {
+    color: blue;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.section_menu_title_3 {
+    color:red;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+
+.section_menu_body {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: justify;
+    margin-right: 15px;
+    
+}
+
+.section_button_green {
+    padding-bottom: 15px;
+}
+
+.section_button_green {
+    display: flex;
+    justify-content: center;
+}
+
+.section_menu_container{
+    background-color:#FFF;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Estilo para a 3 parte da section*/
+.title_section2 {
+    color: #666;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.body_section_2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+/* Estilos pro banner 2*/
+
+#banner2 {
+
+    background-image: url(../images/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+
+
+
+.text_banner2 h1 {
+    font-weight: bold;
+    text-shadow: 3px 0 0 #000;
+    font-size: 40px;
+    color: white;
+}
+
+
+/* Estilo aplicados a section com 4 colunas*/
+
+.section_4_title h5{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.section_4_body {
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.ajuste_img img {
+    object-fit: cover;
+}
+.btn_section4 {
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+ 
+/*Estilos usados dentro do meu banner 3 */
+
+#banner3 {
+
+    background-image: url(../images/banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.area_section_banner3 {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    color: black;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 700px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #FFF;
+   
+}
+
+.section_banner3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.formulario_esquerdo input {
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+.formulario_esquerdo input:hover {
+    background-color: #e9e9e9;
+
+}
+
+#input_place {
+    color: black;
+}
+
+#input_place::placeholder {
+    color: black;
+}
+
+
+.formulario_esquerdo textarea:hover {
+    background-color:#e9e9e9;
+}
+
+#text_area {
+    color: black;
+    font-weight: bold;
+}
+
+.p_texto {
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+#text_area::placeholder {
+    color: black;
+    font-weight: normal;
+}
+
+.texte_area_hover:hover {
+    background-color: #e9e9e9;
+}
+
+/* Estilos aplicados ao footer*/
+
+footer {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 230px;
+}
+
+.footer_area {
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.footer_area h2 {
+    margin-top: 10px;
+}
+
+
+.footer_area p {
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.border_bottom_footer {
+    height: 1px;
+    background-color: #e2e2e2;
+    width: 100%;
+}
+
+.footer_copy {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/*Estilo a garnde coluna que tem no site */
+
+.section_menu_column_big {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.title_section_5 {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #666666;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+/*Estilo para o mobile */
+
+@media(max-width:1023px) {
+
+    #logo {
+        margin: 0;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 5px;
+    }
+    .navbar-nav a{
+        border: none;
+        margin: 0;
+        background-color: transparent;
+    }
+    .navbar-nav a:hover {
+        padding-left: 5px;
+    }
+
+}
+
+
+@media(max-width:767px) {
+    .imagem3 {
+        margin-top: 30px;
+    }
+    .imagem1_mobile,
+    .imagem2_mobile {
+        margin-top: 30px;
+    }
+    
+}
