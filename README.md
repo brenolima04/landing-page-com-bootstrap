@@ -1,17 +1,17 @@
 <h1 align="center">
-    <div href="#">?? Landing Page Responsivo</div>
+    <div href="#">ðŸ”— Landing Page Responsivo</div>
 </h1>
 
-<h3 align="center">?? Descrição:</h3>
+<h3 align="center">ðŸš€ DescriÃ§Ã£o:</h3>
 
 <div align="center">
-    Página usando os recursos do bootstrap para poder deixá-lo completamente responsivo.
+    PÃ¡gina usando os recursos do bootstrap para poder deixÃ¡-lo completamente responsivo.
 </div>
 
 <hr>
 
 <div>
-	<h3 style="font-weight: normal;" align="center">?? Tecnologias:</h3>
+	<h3 style="font-weight: normal;" align="center">ðŸ›  Tecnologias:</h3>
 </div>
 
 
@@ -24,20 +24,20 @@
 
 <hr>
 
-<h3 style="font-weight: normal;" align="center">?? Como usar:</h3>
+<h3 style="font-weight: normal;" align="center">ðŸš€ Como usar:</h3>
 <div align="center"">
-  Como é uma página em html normal, basta apenas baixar o projeto e dar duplo clique no arquivo
+  Como Ã© uma pÃ¡gina em html normal, basta apenas baixar o projeto e dar duplo clique no arquivo
   que tem o nome: index.html
 
 <hr>
 	    
 </div>
 <h3 align="center"> 
-	??  Status do Projeto:  Finalizado!  ??
+	ðŸš§  Status do Projeto:  Finalizado!  ðŸš§
 </h3>
 <hr>
 
-<h3 align="center"> ?? Demostração da página</h3>
+<h3 align="center"> ðŸš€ DemostraÃ§Ã£o da pÃ¡gina</h3>
 
 <div align="center">
     <img  src="./assets/git/lading-page.gif" width="auto" height="auto" alt="">
@@ -45,12 +45,12 @@
 										     
 <hr>
 										     
-<h3 align="center">?? Agradecimentos:</h3>
+<h3 align="center">ðŸš€ Agradecimentos:</h3>
 		  
 <div>
-Obrigado por está interessado nos meus sistemas, espero que de alguma forma eu possa
-ajudar você nos seus estudos, e que possa aproveitar algo de bom aqui! <br><br>
-Meu linkedin: Breno Nicácio <br><br>	   
+Obrigado por estÃ¡ interessado nos meus sistemas, espero que de alguma forma eu possa
+ajudar vocÃª nos seus estudos, e que possa aproveitar algo de bom aqui! <br><br>
+Meu linkedin: Breno NicÃ¡cio <br><br>	   
 </div>		  
 
 	   
@@ -58,4 +58,5 @@ Meu linkedin: Breno Nicácio <br><br>
 
 
 MIT License
-@Copyright (c) 2021 Breno Nicácio
+@Copyright (c) 2021 Breno NicÃ¡cio
+
